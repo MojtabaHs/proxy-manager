@@ -37,6 +37,7 @@ struct swiftui_menu_barApp: App {
         }.commands {
             Menus()
         }
+        .windowResizability(.contentSize)
 
         // 2
         MenuBarExtra(currentState) {
